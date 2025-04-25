@@ -25,8 +25,7 @@ A simple command-line application is designed to simulate a basic banking system
 This project focuses on implementing core banking features like account management, transactions, balance inquiries, and transaction history. It supports multiple account types and basic security features. The system is command-line based and designed for learning and simulation purposes.
  
 ### UML Diagram:
-![image](https://github.com/user-attachments/assets/26f3968a-73ac-4b45-abab-1ea42f4bb9c5)
-
+Banking System.jpeg
 https://lucid.app/lucidchart/947c72c2-5939-4e61-be81-3bb8e94eb0c8/edit?viewport_loc=-5249%2C-636%2C6026%2C2847%2C0_0&invitationId=inv_7db3b363-fb8a-4eb9-93ba-1a63c268eb7d
  
 ### Design Patterns:
