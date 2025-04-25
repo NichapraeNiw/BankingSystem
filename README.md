@@ -59,12 +59,15 @@ The interface uses a do-while loop to continuously display the menu options unti
 - Method to apply interest to eligible accounts is called when the user login to their account, whether the interest is applied will go through the validation process in the method.
 
 **Login or Sign-up UI**
+
 ![image](https://github.com/user-attachments/assets/68da5a6c-c6e1-4575-820b-48e437b74fa0)
  
 **Banking option UI (once an account is created or login):**
+
 ![image](https://github.com/user-attachments/assets/9c4e67d4-f7fd-43a2-aaca-9988b76834b4)
 
 **Interest UI**
+
 ![image](https://github.com/user-attachments/assets/74a64d34-0ff4-49a2-9471-4f6ea4b8a74f)
 
 ### Data Persistence:
@@ -90,7 +93,7 @@ The interface uses a do-while loop to continuously display the menu options unti
 ![image](https://github.com/user-attachments/assets/38d2dcf4-1146-4312-b20d-d9b15af43a85)
  
 ### Future Improvements or Extensions
-  •	Hashing the passwords before storing them for data persistence.
-  •	Storing data in a database instead of in text files.
-  •	Different levels of users and privilege.
-  •	More convenient methods in different classes for better user experience.
+- Hashing the passwords before storing them for data persistence.
+- Storing data in a database instead of in text files.
+- Different levels of users and privilege.
+- More convenient methods in different classes for better user experience.
