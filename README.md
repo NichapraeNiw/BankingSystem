@@ -26,7 +26,7 @@ This project focuses on implementing core banking features like account manageme
  
 ### UML Diagram:
 ![image](https://github.com/user-attachments/assets/edb922ba-2e74-47d8-879d-422d6771c722)
-(https://github.com/NichapraeNiw/BankingSystem/blob/2c1442174a9e1cf43d8ab74a1d13c146fd2a1719/Banking%20System.jpeg)
+https://lucid.app/lucidchart/947c72c2-5939-4e61-be81-3bb8e94eb0c8/edit?viewport_loc=-5249%2C-636%2C6026%2C2847%2C0_0&invitationId=inv_7db3b363-fb8a-4eb9-93ba-1a63c268eb7d
  
 ### Design Patterns:
 **Singleton Design Pattern**
@@ -34,36 +34,21 @@ This project focuses on implementing core banking features like account manageme
   •	This ensures that only one instance of the Bank class exists.
   •	It provides a global access point to manage customers and accounts.
   •	It is implemented by making the constructor private and using a static method to get the instance.
- 
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/48d4ed13-712e-4034-8f66-5f6d9a832dc4)
 
 **Factory Method Pattern**
   •	AccountFactory class is an interface that defines a method to create accounts.
   •	Each account type implements the factory to create specific accounts. (SavingFactory, ChequingFactory, FixedDopositFactory, TFSAFactory, and RRSPFactory) 
   •	This pattern allows flexibility when adding new account types without modifying existing code.
+![image](https://github.com/user-attachments/assets/82c16d9e-4c3f-4f3e-96d6-521d8d13bc74)
  
-
-
-
-
-
-
-
 **Decorator Pattern**
   •	InterestDecorator allows adding dynamic interest calculation to accounts without modifying the base Account class.
   •	InterestDecorator is an abstract class that wraps around a concrete Account object.
   •	Concrete decorators override InterestDecorator methods, and each cconcrete decorator class has a different way of interest calculation.
 (SavingInterestDecorator, 100DayGICDecorator, and 12MonthGICDecorator)
- 
- 
+![image](https://github.com/user-attachments/assets/928ab599-c06f-40b6-9b0b-32e5e804984e)
+
 ### Command Line User Interface:
 The interface uses a do-while loop to continuously display the menu options until the user chooses to exit. The process works as follows:
   •	Show menu options (e.g., Login, Sign Up, etc.).
@@ -74,14 +59,14 @@ The interface uses a do-while loop to continuously display the menu options unti
   •	Method to apply interest to eligible accounts is called when the user login to their account, whether the interest is applied will go through the validation process in the method.
 
 **Login or Sign-up UI**
-
+![image](https://github.com/user-attachments/assets/68da5a6c-c6e1-4575-820b-48e437b74fa0)
  
 **Banking option UI (once an account is created or login):**
+![image](https://github.com/user-attachments/assets/9c4e67d4-f7fd-43a2-aaca-9988b76834b4)
 
- 
 **Interest UI**
+![image](https://github.com/user-attachments/assets/74a64d34-0ff4-49a2-9471-4f6ea4b8a74f)
 
- 
 ### Data Persistence:
   •	There are 3 text files used to record program data and history, which mimics 3 tables in a database:
     o	Customer.txt for customer records
@@ -93,13 +78,13 @@ The interface uses a do-while loop to continuously display the menu options unti
   •	This ensures data persistence and consistency even if the program is closed and restarted in future.
 
 **Customer.txt**
- 
+![image](https://github.com/user-attachments/assets/719fbb19-2726-4c7d-aa83-4b89db71c4e1)
 
 **Account.txt**
-
+![image](https://github.com/user-attachments/assets/ff04f1e4-bc36-47f1-b4bc-b9a2bc092290)
  
 **History.txt**
-
+![image](https://github.com/user-attachments/assets/38d2dcf4-1146-4312-b20d-d9b15af43a85)
  
 ### Future Improvements or Extensions
   •	Hashing the passwords before storing them for data persistence.
