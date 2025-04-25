@@ -14,4 +14,124 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chequing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedDeposit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GIC12MonthDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GIC100DayDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RRSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Saving.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SavingInterestDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFSA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chequing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChequingFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedDeposit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedDepositFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GIC12MonthDecorator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GIC100DayDecorator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestDecorator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RRSP.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RRSPFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Saving.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SavingFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SavingInterestDecorator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFSA.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFSAFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Account.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Customer.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="History.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
