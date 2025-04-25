@@ -47,7 +47,8 @@ https://lucid.app/lucidchart/947c72c2-5939-4e61-be81-3bb8e94eb0c8/edit?viewport_
 - InterestDecorator is an abstract class that wraps around a concrete Account object.
 - Concrete decorators override InterestDecorator methods, and each cconcrete decorator class has a different way of interest calculation.
 (SavingInterestDecorator, 100DayGICDecorator, and 12MonthGICDecorator)
-![image](https://github.com/user-attachments/assets/928ab599-c06f-40b6-9b0b-32e5e804984e)
+![Banking System](https://github.com/user-attachments/assets/fd5f7d27-0bf7-4008-9274-b55d26db091e)
+
 
 ### Command Line User Interface:
 The interface uses a do-while loop to continuously display the menu options until the user chooses to exit. The process works as follows:
