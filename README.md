@@ -78,12 +78,15 @@ The interface uses a do-while loop to continuously display the menu options unti
 - This ensures data persistence and consistency even if the program is closed and restarted in future.
 
 **Customer.txt**
+
 ![image](https://github.com/user-attachments/assets/719fbb19-2726-4c7d-aa83-4b89db71c4e1)
 
 **Account.txt**
+
 ![image](https://github.com/user-attachments/assets/ff04f1e4-bc36-47f1-b4bc-b9a2bc092290)
  
 **History.txt**
+
 ![image](https://github.com/user-attachments/assets/38d2dcf4-1146-4312-b20d-d9b15af43a85)
  
 ### Future Improvements or Extensions
