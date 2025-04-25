@@ -40,7 +40,8 @@ https://lucid.app/lucidchart/947c72c2-5939-4e61-be81-3bb8e94eb0c8/edit?viewport_
 - AccountFactory class is an interface that defines a method to create accounts.
 - Each account type implements the factory to create specific accounts. (SavingFactory, ChequingFactory, FixedDopositFactory, TFSAFactory, and RRSPFactory) 
 - This pattern allows flexibility when adding new account types without modifying existing code.
-![image](https://github.com/user-attachments/assets/82c16d9e-4c3f-4f3e-96d6-521d8d13bc74)
+![Banking System](https://github.com/user-attachments/assets/39b22c07-5656-4dad-a3eb-ed809cab93eb)
+
  
 **Decorator Pattern**
 - InterestDecorator allows adding dynamic interest calculation to accounts without modifying the base Account class.
