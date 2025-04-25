@@ -26,7 +26,7 @@ This project focuses on implementing core banking features like account manageme
  
 ### UML Diagram:
 ![image](https://github.com/user-attachments/assets/edb922ba-2e74-47d8-879d-422d6771c722)
-[Banking System.jpeg]
+(https://github.com/NichapraeNiw/BankingSystem/blob/2c1442174a9e1cf43d8ab74a1d13c146fd2a1719/Banking%20System.jpeg)
  
 ### Design Patterns:
 **Singleton Design Pattern**
